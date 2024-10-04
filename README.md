@@ -77,7 +77,7 @@ Endpoints:
 ```
 5. Main Script
 
-calendar/main.py - runs the main script which plays the audio files thorugh the data sent by the appropriate end points if u want to change any logic regard audio play chnage theis file 
+calendar/main.py - runs the main script which plays the audio files through the data sent by the appropriate end points if u want to change any logic regard audio play chnage theis file 
 
 
 
