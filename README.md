@@ -6,8 +6,8 @@ Languages Used : Html,css,js,php,mysql and python
 
 FEATURES
 ```
-1.Manual csv schedule upload 
-2.Manual schedule with audio 
+1. Manual csv schedule upload 
+2. Manual schedule with audio 
 3. Manual thirukural Audio Player from 1 - 1330 and adhigaram 133
 4. Audio controls like pause stop play
 5. Customizable titles , background image
