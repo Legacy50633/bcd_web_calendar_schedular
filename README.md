@@ -45,7 +45,7 @@ FEATURES
 
 
 
-4. rerequisites            
+4. Prerequisites            
 - PHP Version 8.0.30 
 - Python (version 3.x recommended)
 - pip (Python package manager)
