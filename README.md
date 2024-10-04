@@ -13,6 +13,14 @@ FEATURES
 5. Customizable titles , background image
 ```
 
+
+Prerequisites
+```           
+- PHP Version 8.0.30 
+- Python (version 3.x recommended)
+- pip (Python package manager)
+```
+
 ### Installing
 
 1. Clone the repository:
@@ -43,17 +51,7 @@ FEATURES
     ```
 
 
-
-
-4. Prerequisites
-```           
-- PHP Version 8.0.30 
-- Python (version 3.x recommended)
-- pip (Python package manager)
-```
-
-
-5. API Documentation 
+4. API Documentation 
 
 Endpoints:
 ```
@@ -77,7 +75,7 @@ Endpoints:
 
 
 ```
-6. Main Script
+5. Main Script
 
 calendar/main.py - runs the main script which plays the audio files thorugh the data sent by the appropriate end points if u want to change any logic regard audio play chnage theis file 
 
