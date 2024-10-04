@@ -53,7 +53,7 @@ Prerequisites
 
 4. API Documentation 
 
-Endpoints:
+
 ```
 1.  localhost/config.php and localhost/calendar/Audio_Manager/callbacks/config.php - change ur database name in these files and check all the files inside localhost/calendar/Audio_Manager/callbacks
 2.  localhost/calendar/Audio_Manager/callbacks/login.php - Handles the login request from starting page 
