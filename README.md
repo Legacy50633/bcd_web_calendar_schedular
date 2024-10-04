@@ -75,8 +75,11 @@ Endpoints:
 16. localhost/calendar/Audio_Manager/callbacks/upload.php - uploads the images to the database
 17. localhost/calendar/Audio_Manager/callbacks/fetch.php - get the details of the designated thiurkural or adhigaram as texts from database
 
-```
 
+```
+6. Main Script
+
+calendar/main.py - runs the main script which plays the audio files thorugh the data sent by the appropriate end points if u want to change any logic regard audio play chnage theis file 
 
 
 
