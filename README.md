@@ -58,6 +58,7 @@ PREREQUEISTS
 7. API Documentation 
 
 Endpoints:
+```
 1. localhost/config.php and localhost/calendar/Audio_Manager/callbacks/config.php - change ur database name in these files and check all the files inside localhost/calendar/Audio_Manager/callbacks 
 2. localhost/calendar/Audio_Manager/callbacks/login.php - Handles the login request from starting page 
 3. localhost/calendar/Audio_Manager/callbacks/logout/php - Handles  logout from starting page
@@ -75,7 +76,7 @@ Endpoints:
 15. localhost/calendar/Audio_Manager/callbacks/select.php - selects the user defined input as audio file path
 16. localhost/calendar/Audio_Manager/callbacks/upload.php - uploads the images to the database
 17. localhost/calendar/Audio_Manager/callbacks/fetch.php - get the details of the designated thiurkural or adhigaram as texts from database
-
+```
 
 Error codes and their meanings.
 
