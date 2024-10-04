@@ -60,15 +60,15 @@ PREREQUEISTS
 
 Endpoints:
 ```
-1. localhost/config.php and localhost/calendar/Audio_Manager/callbacks/config.php - change ur database name in these files and check all the files inside localhost/calendar/Audio_Manager/callbacks 
-2. localhost/calendar/Audio_Manager/callbacks/login.php - Handles the login request from starting page 
-3. localhost/calendar/Audio_Manager/callbacks/logout/php - Handles  logout from starting page
-4. localhost/calendar/backphp.php - Handles the new schedule creation
-5. localhost/calendar/csv_upload - Hanldes Csv or xlsx file upload
-6. localhost/calendar/delete.php - Handles event delete
-7. localhost/calendar/get_audio_test_api = fetch event close to current date and time sends the audio paths of the individual events  to the main.py
-8. localhost/calendar/fetchapi.php - sends audio paths of the event which is close to current date and time 
-9. localhost/calendar/popup.php -  gets and sends data for the popup in calendar
+1.  localhost/config.php and localhost/calendar/Audio_Manager/callbacks/config.php - change ur database name in these files and check all the files inside localhost/calendar/Audio_Manager/callbacks
+2.  localhost/calendar/Audio_Manager/callbacks/login.php - Handles the login request from starting page 
+3.  localhost/calendar/Audio_Manager/callbacks/logout/php - Handles  logout from starting page
+4.  localhost/calendar/backphp.php - Handles the new schedule creation
+5.  localhost/calendar/csv_upload - Hanldes Csv or xlsx file upload
+6.  localhost/calendar/delete.php - Handles event delete
+7.  localhost/calendar/get_audio_test_api = fetch event close to current date and time sends the audio paths of the individual events  to the main.py
+8.  localhost/calendar/fetchapi.php - sends audio paths of the event which is close to current date and time 
+9.  localhost/calendar/popup.php -  gets and sends data for the popup in calendar
 10. localhost/calendar/update_event - update the event for the particular day
 11. localhost/calendar/updatefull_event - updates the whole schedule
 12. localhost/calendar/Audio_Manager/callbacks/display.php - fetches the existing image url and sends back
