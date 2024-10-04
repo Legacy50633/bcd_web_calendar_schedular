@@ -56,7 +56,7 @@ PREREQUEISTS
 
 
 
-7. API Documentation 
+4. API Documentation 
 
 Endpoints:
 ```
