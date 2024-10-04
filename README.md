@@ -43,13 +43,9 @@ FEATURES
     ```
 
 
-LOGIN CREDENTIALS
-
-1. Username = Goku
-2. Password = 12345
 
 
-PREREQUEISTS            
+4. rerequisites            
 - PHP Version 8.0.30 
 - Python (version 3.x recommended)
 - pip (Python package manager)
