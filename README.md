@@ -17,8 +17,8 @@ FEATURES
 1. Clone the repository:
 
     ```bash
-    https://github.com/darkb0ts/fullcalendar-php.git
-    cd fullcalendar-php
+   https://github.com/Legacy50633/bdc_web_calendar_schedular.git
+    cd bcd_web_calendar_Schedular
     python3 stepup_install.py or python stepup_install.py
     ```
 
