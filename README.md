@@ -76,9 +76,8 @@ Endpoints:
 15. localhost/calendar/Audio_Manager/callbacks/select.php - selects the user defined input as audio file path
 16. localhost/calendar/Audio_Manager/callbacks/upload.php - uploads the images to the database
 17. localhost/calendar/Audio_Manager/callbacks/fetch.php - get the details of the designated thiurkural or adhigaram as texts from database
-```
 
-Error codes and their meanings.
+```
 
 
 
