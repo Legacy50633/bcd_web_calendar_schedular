@@ -45,14 +45,15 @@ FEATURES
 
 
 
-4. Prerequisites            
+4. Prerequisites
+```           
 - PHP Version 8.0.30 
 - Python (version 3.x recommended)
 - pip (Python package manager)
+```
 
 
-
-4. API Documentation 
+5. API Documentation 
 
 Endpoints:
 ```
