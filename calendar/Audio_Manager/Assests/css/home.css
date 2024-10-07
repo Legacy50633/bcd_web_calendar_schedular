@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contan {
+ 
+
+/* Center horizontally */
+   /* Adjust to center */
+    width: 100%;
+    max-width: 700px;
+    /* position: absolute;
+    top: 100px;
+    left: 500px; */
+ 
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #cfd8dc; /* Light gray */
+    border-radius: 8px;
+    background-color: #f5f5f5; /* Light background */
+}
+
+#f1 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #cfd8dc;
+    border-radius: 8px;
+    background-color: #ffffff; /* White */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#f2, #f3 {
+    flex: 1;
+    padding: 20px;
+    
+    border: 2px solid #cfd8dc;
+    border-radius: 8px;
+    background-color: #ffffff; /* White */
+    margin: 10px;
+}
+
+#contan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    #contan {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #f2, #f3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #b0bec5; /* Light blue-gray */
+    border-radius: 5px;
+    background-color: #eceff1; /* Light gray */
+    color: #37474f; /* Dark blue-gray */
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    background-color: #42a5f5; /* Light blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2196f3; /* Darker blue */
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #37474f; /* Dark blue-gray */
+}
+
+fieldset {
+    transition: box-shadow 0.3s ease-in-out;
+    border-color: #42a5f5; /* Light blue */
+}
+
+fieldset:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+#detail {
+    width: 100%;
+    height: 110px; /* Adjust height as needed */
+    overflow-y: auto;
+    border: 1px solid #b0bec5; /* Light blue-gray */
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #eceff1; /* Light gray */
+}
+
+/* Control button styles */
+#prev, #play, #next, #stop, #pause {
+    background-color: #42a5f5; /* Light blue */
+    padding: 18px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+#pause {
+    background-color: #ffca28; /* Light yellow */
+}
+
+#play {
+    background-color: #4caf50; /* Green */
+    color: white;
+}
+
+#stop {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+#btn-group {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#calendar-btn{
+    position: relative;
+    top: 0;
+    margin-left: 400px;
+    margin-bottom: 2px;
+    left: 150px;
+}
+/* Container styling for login popup */
+#login-popup {
+    display: none;
+    background-color: rgba(245, 245, 245, 1); 
+    padding: 30px;
+    width: 400px;
+    margin: -600px auto; /* Center on the page */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: #f5f5f5; /* Light text color */
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Form heading */
+#login-popup h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #4CAF50; /* Green heading */
+}
+
+/* Form labels */
+#login-popup label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: #f5f5f5;
+}
+
+/* Input fields */
+#login-popup input[type="text"],
+#login-popup input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #4CAF50; /* Green border */
+    border-radius: 4px;
+    background-color: #333; /* Darker input background */
+    color: #fff; /* White text */
+}
+
+#login-popup input::placeholder {
+    color: #bbb; /* Lighter placeholder text */
+}
+
+/* Submit button */
+#login-popup .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#login-popup .submit-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Cancel button */
+#login-popup .cancel-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #f44336; /* Red button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#login-popup .cancel-btn:hover {
+    background-color: #e53935; /* Darker red on hover */
+}
+
+/* Form styling */
+#login-popup form {
+    margin-bottom: 10px;
+}
+
+/* Adjust input field focus style */
+#login-popup input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px #4CAF50; /* Green shadow on focus */
+}
+#navbar{    
+   
+margin-left: 450px;
+
+display: flex;
+justify-content: space-between;
+gap: 5px;
+margin-bottom: 10px;
+}
+
+#submit-btn , #cancel-btn{
+border-radius: 5%;
+}
+#calendar-btn{
+
+margin-top: -15px;
+margin-bottom: 5px;
+
+}
+
+
+.modal-content1 {
+    background-color: rgba(245, 245, 245, 1); 
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 200px;
+    margin-left: 750px;
+    width: 400px; /* Adjust width as needed */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Soft shadow */
+    color: rgb(0, 0, 0); /* Text color */
+    position: absolute; /* For positioning child elements */
+     /* Center the modal */
+    text-align: center; /* Center align text and buttons */
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    /* Spacing below the heading */
+}
+
+.detail-btn {
+    background-color: #42a5f5;; /* Button color */
+    color: rgb(252, 250, 250); /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; /* Padding for the button */
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+
+
+.bg-upload {
+ /* Margin for label */
+ background-color: #42a5f5;;
+ padding: 8px;
+ border-radius: 5%;
+ color: white;
+ margin-left: 100px;
+
+ width: 150px;
+    cursor: pointer; /* Pointer cursor on label */
+}
+
+input[type="file"] {
+    display: none; /* Hidden file input */
+}
+
+#file-name {
+    font-weight: bold; /* Bold text for filename */
+     /* Spacing above filename */
+    color: #42a5f5;; /* File name color */
+}
+
+#bg-btn {
+    background-color: #28a745; /* Green for upload button */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin: 10px 0; /* Margin for separation */
+}
+
+#bg-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.close {
+    background-color: red; /* Red for cancel button */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Margin for separation */
+}
+
+.close:hover {
+    background-color: darkred; /* Darker red on hover */
+}
+label{
+    color: black;
+    font-weight: bold;
+}
+
+#login-btn , #settings-btn{
+    border-radius: 5px;
+}
+

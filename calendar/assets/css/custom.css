@@ -1,0 +1,328 @@
+
+
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.button-container label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: royalblue;
+    box-shadow: rgb(0 0 255 / 5%) 0 0 7px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: all .5s ease;
+    color: white;
+}
+
+button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  #counter {
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 30px;
+    text-align: center;
+}
+
+
+/* Wrapper for the navbar */
+.wrapper {
+  position: relative; /* Ensure positioning context for child elements */
+}
+
+.content-page1{
+  margin-top: -100px;
+}
+/* Logout button container */
+#logout {
+  position: fixed; /* Fixes the element to the viewport */
+  top: 0; /* Align to the top of the viewport */
+  right: 0; /* Align to the right of the viewport */
+  padding: 10px; /* Add some padding */
+  z-index: 1000; /* Ensure it is on top of other elements */
+  display: flex;
+  justify-content: flex-end; /* Align button to the right */
+}
+
+/* Style for the logout button form */
+#logout form {
+  margin: 0; /* Remove default margin */
+}
+
+/* Style for the logout button input */
+#logout input[type="submit"] {
+  background-color: #007bff; /* Primary color */
+  color: #fff; /* Text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 8px 16px; /* Padding for button */
+  font-size: 0.875rem; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Logout button hover state */
+#logout input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  #logout {
+      padding: 8px; /* Adjust padding for medium screens */
+  }
+
+  #logout input[type="submit"] {
+      padding: 6px 12px; /* Adjust button size for medium screens */
+      font-size: 0.8rem; /* Smaller font size for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  #logout {
+      padding: 6px; /* Further adjust padding for smaller screens */
+  }
+
+  #logout input[type="submit"] {
+      padding: 4px 8px; /* Smaller button size for smaller screens */
+      font-size: 0.75rem; /* Smaller font size for smaller screens */
+  }
+}
+/* Wrapper for the buttons */
+/* Modal styling */
+.modal-dialog {
+  max-width: 500px; /* Ideal width for tablets */
+  margin: 1.75rem auto; /* Center the modal vertically and horizontally */
+}
+
+.modal-content {
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding around the content */
+}
+
+.modal-body {
+  padding: 20px; /* Padding inside the modal body */
+}
+
+.modal-body h4 {
+  margin-bottom: 20px; /* Space below the heading */
+  text-align: center; /* Center the heading text */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form elements */
+}
+
+.form-label {
+  font-size: 14px; /* Font size for labels */
+  font-weight: 600; /* Font weight for labels */
+}
+
+.form-control {
+  height: 40px; /* Height for input fields */
+  font-size: 14px; /* Font size for input fields */
+}
+
+.btn-block {
+  width: 100%; /* Full-width button */
+}
+
+.btn-primary {
+  /* Primary button color */
+  border-color: #007bff; /* Border color for button */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  border-color: #004085; /* Darker border on hover */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+  box-shadow:-2px  5px 22px rgba(51, 39, 226, 0.9); /* Shadow effect on hover */
+  transform: scale(1.05); /* Slightly increase the button size */
+  color: #ffffff; /* Ensure text color remains white */
+}
+.text-center {
+  text-align: center; /* Center align text */
+}
+
+a {
+  color: #007bff; /* Link color */
+}
+
+a:hover {
+  color: #0056b3; /* Darker color on hover */
+}
+/* Basic styles for the pop-up */
+#csv-upload {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+/* Dim background when pop-up is active */
+#csv-upload.active {
+    display: block;
+}
+
+/* Basic fieldset styling */
+#csv-upload fieldset {
+    border: none;
+}
+
+/* Form input styles */
+#csv-upload input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#csv-upload input[type="submit"] {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#csv-upload input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Button to close the pop-up */
+#csv-upload #close-popup {
+    margin-top: 10px;
+    background-color: #f44336;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#csv-upload #close-popup:hover {
+    background-color: #d32f2f;
+}
+
+/* Fullscreen background when the pop-up is active */
+#popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* Active overlay */
+#popup-overlay.active {
+    display: block;
+}
+
+iframe {
+    border: none; /* Reset any border */
+    padding: 0; /* Reset any padding */
+    margin: 0; /* Reset any margin */
+}
+

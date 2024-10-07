@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe Content</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+        p {
+            margin: 0;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p id="bellid">Bellid: Loading...</p>
+        <p id="paulid">Paulid: Loading...</p>
+        <p id="adhikaramid">Adhikaramid: Loading...</p>
+        <p id="thirukkuralid">Thirukuralid: Loading...</p>
+    </div>
+    <script>
+        // Event listener for receiving messages from the parent
+        window.addEventListener('message', function(event) {
+            const data = event.data;        
+            // Update the paragraphs only if data is not null, otherwise set to an empty string or placeholder
+            if (data.bellid !== null) {
+                document.getElementById('bellid').innerText = "Bellid: " + data.bellid;
+            } else {
+                document.getElementById('bellid').innerText = "Bellid: N/A"; // Default or placeholder value
+            }
+            
+            if (data.paulid !== null) {
+                document.getElementById('paulid').innerText = "Paulid: " + data.paulid;
+            } else {
+                document.getElementById('paulid').innerText = "Paulid: N/A"; // Default or placeholder value
+            }
+            
+            if (data.adhikaramid !== null) {
+                document.getElementById('adhikaramid').innerText = "Adhikaramid: " + data.adhikaramid;
+            } else {
+                document.getElementById('adhikaramid').innerText = "Adhikaramid: N/A"; // Default or placeholder value
+            }
+            
+            if (data.thirukkuralid !== null) {
+                document.getElementById('thirukkuralid').innerText = "Thirukkuralid: " + data.thirukkuralid;
+            } else {
+                document.getElementById('thirukkuralid').innerText = "Thirukkuralid: N/A"; // Default or placeholder value
+            }
+        }, false);
+    </script>
+</body>
+</html>
