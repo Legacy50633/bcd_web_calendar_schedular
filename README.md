@@ -52,8 +52,26 @@ Prerequisites
     pip install -r requirements.txt
     ```
 
+4. Database Credentials
+   ```
+   Username = root
+   Password = root
+   Host = localhost
+   Database = timebase_sys
+   ```
+5. Login Credentials
 
-4. API Documentation 
+   ```
+   ADMIN Access
+   Username:Goku
+   Password:12345
+
+   USER ACCESS
+   Username: Vegeta
+   Password:12345
+   ```
+     
+6. API Documentation 
 
 
 ```
@@ -77,7 +95,15 @@ Prerequisites
 
 
 ```
-5. Main Script
+7. BCD PINS Integration - 4 swithces
+   ```
+         pin1 = [6, 13, 19, 26]
+         pin2 = [12, 16, 20, 21]
+         pin3 = [24, 25, 8, 7]
+         pin4 = [4, 17, 27, 22]
+         differnce value to read pin value  = 15
+   ```
+8. Main Script
 
 calendar/main.py - runs the main script which plays the audio files through the data sent by the appropriate end points if u want to change any logic regard audio play change this file 
 
