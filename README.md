@@ -17,9 +17,10 @@ FEATURES
 
 Prerequisites
 ```           
-- PHP Version 8.0.30 
+- PHP Version 7.3 or 8.0.30 
 - Python (version 3.x recommended)
 - pip (Python package manager)
+- Xampp 7.3 or Xampp version > 7.3
 ```
 
 ### Installing
