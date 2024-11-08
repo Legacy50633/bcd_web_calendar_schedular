@@ -51,15 +51,29 @@ Prerequisites
     ```bash
     pip install -r requirements.txt
     ```
+4. Rashberrypi Scanning
 
-4. Database Credentials
+   ```bash
+   (first get you ip address by typing)
+   ipconfig
+   nmap -sn 192.168.your_ipnumber.0/24
+   (look for rashberrypi foundation)
+   
+   ```
+5. Putty and Winscp Login
+   ```
+   (intsall putty exe)
+   username : admin
+   password: root
+   ```   
+6. Database Credentials
    ```
    Username = root
    Password = root
    Host = localhost
    Database = timebase_sys
    ```
-5. Login Credentials
+7. Website app Login Credentials
 
    ```
    ADMIN Access
@@ -71,7 +85,7 @@ Prerequisites
    Password:12345
    ```
      
-6. API Documentation 
+8. API Documentation 
 
 
 ```
@@ -95,7 +109,7 @@ Prerequisites
 
 
 ```
-7. BCD PINS Integration pi model 3 B+ - 4 swithces
+9. BCD PINS Integration pi model 3 B+ - 4 swithces
    ```
          switch1 = [6, 13, 19, 26]
          switch2 = [12, 16, 20, 21]
@@ -104,7 +118,7 @@ Prerequisites
          differnce value to read pin value  = 15
          visit (https://pinout.xyz/) for full pinout details
    ```
-8. Main Script
+10. Main Script
 
 calendar/main.py - runs the main script which plays the audio files through the data sent by the appropriate end points if u want to change any logic regard audio play change this file 
 
