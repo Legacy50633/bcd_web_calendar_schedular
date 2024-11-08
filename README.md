@@ -95,13 +95,14 @@ Prerequisites
 
 
 ```
-7. BCD PINS Integration - 4 swithces
+7. BCD PINS Integration pi model 3 B+ - 4 swithces
    ```
-         pin1 = [6, 13, 19, 26]
-         pin2 = [12, 16, 20, 21]
-         pin3 = [24, 25, 8, 7]
-         pin4 = [4, 17, 27, 22]
+         switch1 = [6, 13, 19, 26]
+         switch2 = [12, 16, 20, 21]
+         switch3 = [24, 25, 8, 7]
+         switch4 = [4, 17, 27, 22]
          differnce value to read pin value  = 15
+         visit (https://pinout.xyz/) for full pinout details
    ```
 8. Main Script
 
