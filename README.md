@@ -21,6 +21,7 @@ Prerequisites
 - Python (version 3.x recommended)
 - pip (Python package manager)
 - Xampp 7.3 or Xampp version > 7.3
+- Mysql version above 15
 ```
 
 ### Installing
